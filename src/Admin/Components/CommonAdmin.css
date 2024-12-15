@@ -1,0 +1,84 @@
+.container-nav{
+    width: 260px;
+    height: 700px;
+    background-color: rgb(215,0,24);
+    padding: 30px 10px;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+.content-nav{
+    border: 1px solid yellow;
+    text-align: center;
+}
+.content-nav h4 {
+    margin-bottom: 40px;
+}
+.select-nav {
+    height: 48px;
+    background-color: white;
+    color: red;
+    padding: 15px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+.select-nav h5 {
+    margin-left: 15px;
+}
+/*Phần  router admin*/
+.ctn-admin{
+    display: flex;
+}
+.ctn-router {
+    padding: 60px 50px;
+}
+/*Phân productManager*/
+.direct-productManager a{
+    margin: 10px 30px;
+    color: red;
+}
+/*Phần smartPhoneProductManager */
+.ctn-directProduct{
+    margin-bottom: 30px;
+}
+/*Bang quan ly san pham */
+.thProductManager-Id {
+    width: 70px;
+    text-align: center;
+}
+.thProductManager-name {
+    width: 300px;
+    text-align: center;
+}
+.thProductManager-price{
+    width: 150px;
+    text-align: center;
+}
+.thProductManager-description {
+    width: 300px;
+    text-align: center;
+}
+.thProductManager-number{
+    width: 100px;
+    text-align: center;
+}
+.thProductManager-image {
+    width: 100px;
+    text-align: center;
+}
+.thProductManager-fix{
+    width: 200px;
+    text-align: center;
+}
+.container-productManager{
+    height: 520px;
+    overflow: scroll;
+    width: 1140px;
+}
+.tb-productManager{
+    width: 1700px;
+}
+
+

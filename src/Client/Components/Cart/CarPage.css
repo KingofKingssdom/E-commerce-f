@@ -1,0 +1,33 @@
+.cart-container {
+
+}
+table {
+    margin-left: 171px;
+}
+.number{
+    width: 50px;
+    padding-left: 10px;
+    margin: 5px 5px;
+}
+.th-cart {
+    width: 300px;
+    text-align: center;
+}
+.th-cart-number{
+    width: 100px;
+    text-align: center;
+}
+.th-cart-price{
+    width: 150px;
+    text-align: center;
+}
+tr {
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+.total{
+    color: rgb(215,0,24);
+    font-weight: 500;
+    margin-left: 171px;
+
+}

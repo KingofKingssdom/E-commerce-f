@@ -1,0 +1,140 @@
+/*Dong boc chung ben ngoai */
+.container-category{
+    margin: 20px 171px;
+}
+.container-cal{
+    height: 97px;
+    width: 584px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+/* Logo Brand */
+.container-logoBrand{
+    overflow: hidden;
+    padding: 20px 10px;
+}
+a {
+    text-decoration: none;
+}
+.logoBrandItem {
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 120px;
+    height: 33px;
+    margin: 10px 10px;
+    padding: 0 17px;
+}
+.logoBrandItem img{
+    max-width: 98px;
+    height: 20px;
+}
+/*Item*/
+.item {
+    max-width: 300px;
+    min-height: 470px;
+    overflow: hidden;
+    box-shadow: 0 0 5px 5px rgb(225,226,226);
+    border-radius: 10px;
+    position: relative;
+    margin: 10px 5px;
+}
+
+
+.imageItem{
+    padding: 20px 0;
+    margin: 10px 35px;
+    width: 165px;
+    height: 155px;
+}
+.titleItem{
+    min-height: 79px;
+    color: black;
+    padding: 0 7px;
+}
+.priceItem {
+    padding: 0 7px;
+}
+.priceItem h5{
+    display: inline-block;
+    color: rgb(215,0,24);
+}
+.priceItem h6{
+    display: inline-block;
+    color: rgb(141,141,141);
+    text-decoration: line-through;
+    margin: 0 5px;
+    font-size: 14px;
+}
+.statusItem{
+    background-color: rgb(254,236,240);
+    border-radius: 10px;
+    padding: 0 7px;
+    margin: 5px 7px;
+    width: 110px;
+    color: rgb(215,0,24);
+}
+.infoItem{
+    padding: 0 5px;
+    margin: 14px 7px;
+    color: black;
+    border-radius: 10px;
+    background-color: rgb(243,244,246);
+    min-height: 67px;
+}
+.payItem{
+    border: 1px solid;
+    border-radius: 5px;
+    width: 70px;
+    position: absolute;
+    top: 0;
+    left: 74%;
+    font-size: 13px;
+}
+.discountNumberItem{
+    background-color: rgb(215,0,24);
+    color: white;
+    font-size: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 90px;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    padding-left: 4px;
+}
+.reviewer{
+    color: rgb(245,158,11);
+    margin: 0 10px;
+}
+.pagination{
+    margin: 100px 0;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-3 {
+    width: calc(25% - 20px); /* 4 cột trên mỗi hàng, trừ đi khoảng cách */
+    margin: 10px; /* Khoảng cách giữa các phần tử */
+    box-sizing: border-box; /* Bao gồm padding và border trong chiều rộng */
+}
+@media screen and (max-width: 46.1875em){
+    .container-category{
+        margin: 20px 10px;
+    }
+    .col-3 {
+        width: calc(50% - 20px); /* 2 cột trên mỗi hàng trên điện thoại */
+        margin: 10px 0;
+    }
+}
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em){
+    .container-category{
+        margin: 20px 10px;
+    }
+    .col-3 {
+        width: calc(33.33% - 20px); /* 3 cột trên mỗi hàng trên iPad */
+        margin: 10px;
+    }
+
+}

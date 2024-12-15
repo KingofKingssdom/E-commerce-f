@@ -1,0 +1,240 @@
+/* Body */
+.cps-container{
+    margin-left: 171px ;
+    margin-right: 171px ;
+    margin-bottom: 50px;
+}
+.block-top-home{
+    margin-top: 10px;
+    display: flex;
+}
+/* Menu */
+.menu-container {
+    width: 222px;
+    height: 360px;
+    box-shadow: 0 0 5px 5px rgb(225,226,226);
+    border-radius: 10px;
+    padding: 10px 10px;
+    background-color: white;
+}
+.label-menu-tree{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.label-menu-tree:hover{
+    background-color: rgb(230,230,230);
+}
+.left-content{
+    display: flex;
+    justify-content: space-around;
+    width: 120px;
+    color: black;
+}
+.icon-tree{
+    font-size: 30px;
+    color: black;
+
+}
+.content-tree{
+    margin: 10px 5px;
+    width: 100px;
+    font-weight: 500;
+}
+.content-tree:hover{
+    color: rgb(215,0,24);
+    cursor: pointer;
+}
+.right-content{
+    font-size: 30px;
+    display: inline-block;
+    color: black;
+}
+/* Danh mục chi tiết */
+.container-brand{
+    position: absolute;
+    background-color: white;
+    width: 250px;
+    min-height: 360px;
+    z-index: 2;
+    padding: 10px 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+.container-brand a {
+    text-decoration: none;
+    color: black;
+}
+.container-brand a:hover {
+    color: rgb(215,0,24);
+}
+/* Brand */
+.brand {
+    position: absolute;
+    top: 100px;
+    left: 380px;
+}
+
+
+/* Sliding-top-home */
+.block-sliding-home{
+    width: 673px;
+    height: 360px;
+    margin: 0 15px;
+    box-shadow: 0 0 5px 5px rgb(225,226,226);
+    overflow: hidden;
+    border-radius: 10px;
+}
+/* Right banner */
+.right-banner{
+    width: 256px;
+    height: 360px;
+}
+.right-banner-item{
+    box-shadow: 0 0 2px 2px rgb(225,226,226);
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+/* Phần điện thoại nổi bật nhất */
+.swriper-wrapper a {
+    text-decoration: none;
+}
+.container-common{
+    margin: 20px 0;
+
+}
+.container-phone h4 {
+    margin: 10px 0;
+}
+
+.item {
+    max-width: 300px;
+    min-height: 470px;
+    overflow: hidden;
+    box-shadow: 0 0 5px 5px rgb(225,226,226);
+    border-radius: 10px;
+    position: relative;
+    margin: 10px 5px;
+}
+
+
+.imageItem{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    margin: 10px 0;
+}
+.titleItem{
+    min-height: 79px;
+    color: black;
+    padding: 0 7px;
+}
+.priceItem {
+    padding: 0 7px;
+}
+.priceItem h5{
+    display: inline-block;
+    color: rgb(215,0,24);
+}
+.priceItem h6{
+    display: inline-block;
+    color: rgb(141,141,141);
+    text-decoration: line-through;
+    margin: 0 5px;
+    font-size: 14px;
+}
+.statusItem{
+    background-color: rgb(254,236,240);
+    border-radius: 10px;
+    padding: 0 7px;
+    margin: 5px 7px;
+    width: 110px;
+    color: rgb(215,0,24);
+}
+.infoItem{
+    padding: 0 5px;
+    margin: 14px 7px;
+    color: black;
+    border-radius: 10px;
+    background-color: rgb(243,244,246);
+    min-height: 67px;
+}
+.payItem{
+    border: 1px solid;
+    border-radius: 5px;
+    width: 70px;
+    position: absolute;
+    top: 0;
+    left: 65%;
+    font-size: 13px;
+}
+.discountNumberItem{
+    background-color: rgb(215,0,24);
+    color: white;
+    font-size: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 90px;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    padding-left: 4px;
+}
+.reviewer{
+    color: rgb(245,158,11);
+    margin: 0 10px;
+}
+/* Mobile */
+@media screen and (max-width: 46.1875em){
+
+    .cps-container{
+        margin-left: 10px ;
+        margin-right: 10px ;
+        margin-bottom: 100px;
+
+    }
+    .item{
+        font-size: 13px;
+
+    }
+    .menu-container, .right-banner{
+        display: none;
+    }
+    .block-sliding-home{
+        width: 350px;
+        height: 180px;
+        margin: 0 2px;
+    }
+    .block-sliding-home img {
+        width: 350px;
+        height: 160px;
+    }
+
+}
+/* Tablet */
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em){
+
+    .block-sliding-home{
+        width: 540px;
+        height: 320px;
+        margin: 0 10px;
+    }
+    .block-sliding-home img {
+        width: 540px;
+        height: 320px;
+    }
+    .menu-container{
+        height: 320px;
+        width: 190px;
+    }
+    .icon-tree{
+        font-size: 20px;
+    }
+    .right-content{
+        font-size: 20px;
+        display: inline-block;
+    }
+
+}
